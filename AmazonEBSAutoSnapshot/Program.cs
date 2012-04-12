@@ -19,6 +19,12 @@ namespace AmazonEBSAutoSnapshot
             string vol_id_str = ConfigurationManager.AppSettings["VolumeIDsToSnapshot"];
             string num_prev_snaps = ConfigurationManager.AppSettings["NumberOfPrevSnaps2Keep"];
 
+            if (String.IsNullOrWhiteSpace(dur) || String.IsNullOrWhiteSpace(vol_id_str) || String.IsNullOrWhiteSpace(num_prev_snaps))
+            {
+                Console.WriteLine("Some of the configuration is empty or invalid. Please modify the .config file provided with the executable to set the values");
+                return;
+            }
+
             // prepare a list of volume IDs from input string
             ArrayList al = new ArrayList();
             string[] parts = vol_id_str.Split(",".ToCharArray());

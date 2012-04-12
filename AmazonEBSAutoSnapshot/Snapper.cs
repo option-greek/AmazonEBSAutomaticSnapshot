@@ -20,6 +20,7 @@ namespace AmazonEBSAutoSnapshot
         public Snapper(int DurationInHours, ArrayList VolumeIDs, int NumberOfSnapsToKeep)
         {
             aec = new AmazonEC2Client(new AmazonEC2Config());
+
             volumes = VolumeIDs;
             hours = DurationInHours;
             snaps2keep = NumberOfSnapsToKeep;
