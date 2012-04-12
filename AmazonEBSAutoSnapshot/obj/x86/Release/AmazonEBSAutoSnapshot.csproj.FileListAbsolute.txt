@@ -1,0 +1,6 @@
+G:\designduke\AmazonEBSAutoSnapshot\AmazonEBSAutoSnapshot\bin\Release\AmazonEBSAutoSnapshot.exe.config
+G:\designduke\AmazonEBSAutoSnapshot\AmazonEBSAutoSnapshot\bin\Release\AmazonEBSAutoSnapshot.exe
+G:\designduke\AmazonEBSAutoSnapshot\AmazonEBSAutoSnapshot\bin\Release\AmazonEBSAutoSnapshot.pdb
+G:\designduke\AmazonEBSAutoSnapshot\AmazonEBSAutoSnapshot\obj\x86\Release\ResolveAssemblyReference.cache
+G:\designduke\AmazonEBSAutoSnapshot\AmazonEBSAutoSnapshot\obj\x86\Release\AmazonEBSAutoSnapshot.exe
+G:\designduke\AmazonEBSAutoSnapshot\AmazonEBSAutoSnapshot\obj\x86\Release\AmazonEBSAutoSnapshot.pdb
